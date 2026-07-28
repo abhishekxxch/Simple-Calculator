@@ -2,17 +2,21 @@
 
 # 🧮 Simple Calculator
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&pause=1000&color=FFD700&center=true&vCenter=true&width=750&lines=Simple+Calculator;Built+with+React+%2B+Node.js;Fast+%7C+Responsive+%7C+Modern+UI" />
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=30&pause=1000&color=FFD700&center=true&vCenter=true&width=850&lines=Simple+Calculator;Built+with+React+%2B+Node.js;Fast+%7C+Responsive+%7C+Modern+UI;Full+Stack+Calculator+Application)](https://git.io/typing-svg)
 
 <br>
 
-<img src="https://img.shields.io/github/stars/abhishekxxch/Simple-Calculator?style=for-the-badge&logo=github" />
-<img src="https://img.shields.io/github/forks/abhishekxxch/Simple-Calculator?style=for-the-badge&logo=github" />
-<img src="https://img.shields.io/github/license/abhishekxxch/Simple-Calculator?style=for-the-badge" />
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express"/>
+![GitHub Repo stars](https://img.shields.io/github/stars/abhishekxxch/Simple-Calculator?style=for-the-badge&logo=github)
+![GitHub forks](https://img.shields.io/github/forks/abhishekxxch/Simple-Calculator?style=for-the-badge&logo=github)
+![GitHub issues](https://img.shields.io/github/issues/abhishekxxch/Simple-Calculator?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/abhishekxxch/Simple-Calculator?style=for-the-badge)
+
+<br>
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express)
 
 </div>
 
@@ -20,29 +24,19 @@
 
 # 📖 About
 
-A modern full-stack calculator built with **React + Vite** on the frontend and **Node.js + Express** on the backend.
+A modern **Full Stack Calculator** built with **React + Vite** on the frontend and **Node.js + Express** on the backend.
 
-Designed with a clean UI, smooth user experience, and API-based calculations.
+The application performs arithmetic calculations through a backend API while maintaining a clean, responsive and minimal user interface.
 
 ---
 
-# 🎥 Demo
-
-> Replace this GIF with your own screen recording.
+# 📸 Preview
 
 <p align="center">
-<img src="https://media.tenor.com/DimzPZMypFcAAAAC/calculator.gif" width="700">
+
+<img src="https://raw.githubusercontent.com/abhishekxxch/Simple-Calculator/main/FRONTEND/public/calculator.png.png" width="900"/>
+
 </p>
-
----
-
-# 📸 Screenshot
-
-Replace this after uploading your screenshot.
-
-```md
-![Calculator](images/calculator.png)
-```
 
 ---
 
@@ -52,10 +46,10 @@ Replace this after uploading your screenshot.
 - ➖ Subtraction
 - ✖️ Multiplication
 - ➗ Division
-- ⚡ Lightning Fast
-- 🎨 Modern UI
+- ⚡ API Powered Calculations
+- 🎨 Beautiful UI
 - 📱 Responsive Design
-- 🔥 REST API Integration
+- 🚀 Fast Performance
 
 ---
 
@@ -64,7 +58,7 @@ Replace this after uploading your screenshot.
 | Frontend | Backend |
 |-----------|----------|
 | React | Node.js |
-| Vite | Express |
+| Vite | Express.js |
 | CSS | REST API |
 
 ---
@@ -78,12 +72,12 @@ Simple-Calculator
 │   ├── controllers
 │   ├── routes
 │   ├── tests
-│   ├── server.js
-│   └── package.json
+│   ├── package.json
+│   └── server.js
 │
 ├── FRONTEND
-│   ├── src
 │   ├── public
+│   ├── src
 │   ├── package.json
 │   └── vite.config.js
 │
@@ -94,13 +88,13 @@ Simple-Calculator
 
 # 🚀 Installation
 
-Clone the repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/abhishekxxch/Simple-Calculator.git
 ```
 
-Backend
+### Install Backend
 
 ```bash
 cd BACKEND
@@ -108,7 +102,7 @@ npm install
 npm start
 ```
 
-Frontend
+### Install Frontend
 
 ```bash
 cd FRONTEND
@@ -122,35 +116,52 @@ npm run dev
 
 | Method | Endpoint | Description |
 |---------|----------|-------------|
-| POST | `/calculate` | Perform arithmetic calculations |
+| POST | `/calculate` | Performs arithmetic calculations |
 
 ---
 
 # 💡 Future Improvements
 
 - Scientific Calculator
+- Dark Mode
 - Keyboard Support
 - Calculation History
+- Unit Converter
 - Themes
-- Dark Mode
-- Voice Input
 
 ---
 
-# ⭐ Show Your Support
+# 🤝 Contributing
 
-If you like this project:
+Contributions are always welcome!
 
-⭐ Star this repository
+1. Fork the repository
+2. Create your feature branch
 
-🍴 Fork it
+```bash
+git checkout -b feature-name
+```
 
-🐞 Open an Issue
+3. Commit your changes
+
+```bash
+git commit -m "Add amazing feature"
+```
+
+4. Push
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
 
 ---
 
 <div align="center">
 
-### Made with ❤️ by Abhishek Chaudhary
+## ⭐ Star this Repository if you like it!
+
+Made with ❤️ by **Abhishek Chaudhary**
 
 </div>
