@@ -1,0 +1,230 @@
+.calculator {
+  width: 380px;
+  padding: 30px;
+  margin: 70px auto;
+  border-radius: 25px;
+  background: linear-gradient(
+    135deg,
+    #000000,
+    #121212,
+    #1b1b1b
+  );
+
+  box-shadow:
+    0 0 20px #d4ff00,
+    0 0 40px rgba(212, 255, 0, 0.3);
+
+  animation: floating 3s ease-in-out infinite;
+}
+
+
+@keyframes floating {
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-8px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+
+}
+
+
+
+.display{
+
+    width:100%;
+    height:80px;
+    padding:15px;
+
+    border:none;
+    outline:none;
+
+    border-radius:15px;
+
+    font-size:32px;
+    text-align:right;
+    font-weight:bold;
+
+    color:#d4ff00;
+
+    background-color:black;
+
+    box-shadow:
+    inset 0 0 10px #d4ff00;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.buttons{
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:15px;
+
+}
+
+
+
+button{
+
+    padding:20px;
+    border:none;
+    border-radius:18px;
+
+    cursor:pointer;
+
+    font-size:22px;
+    font-weight:bold;
+
+    background:linear-gradient(
+    135deg,
+    #ffe600,
+    #ffd000
+    );
+
+    color:black;
+
+    transition:all .4s ease;
+
+    box-shadow:
+    0 8px 15px rgba(255,230,0,.3);
+
+}
+
+
+
+/* Hover Effect */
+
+button:hover{
+
+    transform:
+    translateY(-5px)
+    scale(1.05);
+
+    background:linear-gradient(
+    135deg,
+    #d4ff00,
+    #adff2f
+    );
+
+    box-shadow:
+    0 0 20px #d4ff00,
+    0 0 35px #d4ff00;
+
+}
+
+
+
+/* Click Animation */
+
+button:active{
+
+    transform:
+    scale(.92);
+
+}
+
+
+
+/* Zero Button */
+
+.zero{
+
+    grid-column:span 2;
+
+}
+
+
+
+/* Equal Button */
+
+button:last-child{
+
+    background:linear-gradient(
+    135deg,
+    #00ff66,
+    #00cc55
+    );
+
+    color:white;
+
+}
+
+
+button:last-child:hover{
+
+    box-shadow:
+    0 0 25px #00ff66,
+    0 0 40px #00ff66;
+
+}
+
+
+
+/* DEL Button */
+
+button:nth-child(2){
+
+    background:#ff4141;
+    color:white;
+
+}
+
+
+button:nth-child(2):hover{
+
+    box-shadow:
+    0 0 25px red;
+
+}
+
+
+
+/* Clear Button */
+
+button:nth-child(1){
+
+    background:#ff9d00;
+    color:white;
+
+}
+
+
+button:nth-child(1):hover{
+
+    box-shadow:
+    0 0 25px orange;
+
+}
+
+
+
+/* Mobile */
+
+@media(max-width:450px){
+
+    .calculator{
+
+        width:90%;
+        padding:20px;
+
+    }
+
+
+    button{
+
+        padding:16px;
+        font-size:18px;
+
+    }
+
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: Poppins, sans-serif;
+
+  background: linear-gradient(
+    -45deg,
+    #000000,
+    #071b00,
+    #161616,
+    #294b00,
+    #000000
+  );
+
+  background-size: 400% 400%;
+  animation: backgroundMove 12s ease infinite;
+}
+
+#root {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes backgroundMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
